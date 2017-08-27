@@ -8,9 +8,9 @@
   'false':
     'prefix': 'false'
     'body': 'expr  false'
-  'undefined':
-    'prefix': 'undefined'
-    'body': 'expr  undefined'
+  'undef':
+    'prefix': 'undef'
+    'body': 'expr  undef'
   'equal':
     'prefix': 'equal'
     'body': 'expr  =()'

@@ -9,6 +9,7 @@
   - uuidによる命題間リンク
 - uuid付きの命題ノードの表現
 - bool計算、statement.children構築のリファクタリング
+- dot-writer.js → TODO:無理やり連結しているのは改善必要
 
 ## 応用
 
