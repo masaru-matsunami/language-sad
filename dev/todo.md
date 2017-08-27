@@ -9,6 +9,10 @@
 - uuid付きの命題ノードの表現
 - bool計算、statement.children構築のリファクタリング
 - dot-writer.js → TODO:無理やり連結しているのは改善必要
+- 書式間違いなどのエラーをconsoleでなく、UI上にちゃんと出力
+- メニューを用意
+- 自動整形処理のON/OFF
+- PDFファイルの出力機能
 
 ## 応用
 
