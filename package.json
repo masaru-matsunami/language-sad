@@ -1,0 +1,18 @@
+{
+  "name": "language-sad",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Atom package for Security Analysis Diagram",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/atom/language-sad",
+  "license": "Copyright (c) 2017 Masaru Matsunami, All rights reserved.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "node-uuid": "*"
+  }
+}

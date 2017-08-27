@@ -1,0 +1,7 @@
+{
+  "atom-workspace atom-text-editor:not(.mini)[data-grammar~=\"sad\"]": {
+    "ctrl-;": "sad:draw",
+    "ctrl-[": "sad:outdent",
+    "ctrl-]": "sad:indent"
+  }
+}

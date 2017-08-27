@@ -1,0 +1,19 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
+
+'.source.sad':
+  'true':
+    'prefix': 'true'
+    'body': 'expr  true'
+  'false':
+    'prefix': 'false'
+    'body': 'expr  false'
+  'undefined':
+    'prefix': 'undefined'
+    'body': 'expr  undefined'
+  'equal':
+    'prefix': 'equal'
+    'body': 'expr  =()'
+  'not':
+    'prefix': 'not'
+    'body': 'expr  not()'

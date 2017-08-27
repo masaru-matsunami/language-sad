@@ -1,0 +1,42 @@
+# If this is your first time writing a language grammar, check out:
+#   - http://manual.macromates.com/en/language_grammars
+
+'scopeName': 'source.sad'
+'name': 'Security Analysis Diagram'
+'fileTypes': [
+  'sad'
+]
+'patterns': [
+  {
+    # コメント
+    'match': '^.*(//.*)$'
+    'captures':
+      '1':
+        'name': 'storage.sad'
+  },
+  {
+    # 命題行
+    'match': '^\\s*(\\[\\d*\\])\\s*(.*)\\s*$'
+    'captures':
+      '1':
+        'name': 'support.class.sad'
+      '2':
+        'name': 'string.sad'
+  },
+  {
+    # expr行
+    'match': '^\\s+(expr)\\s+(.*)\\s*$'
+    'captures':
+      '1':
+        'name': 'entity.name.function.sad'
+      '2':
+        'name': 'entity.name.function.sad'
+  },
+  {
+    # メモ行
+    'match': '^\\s+([^\s]{1,8})\\s+(.*)\\s*$'
+    'captures':
+      '1':
+        'name': 'support.variable.sad'
+  }
+]
