@@ -5,6 +5,8 @@
 language-sad はセキュリティ分析図（Security Analysis Diagram）の作成を支援するAtomパッケージです。
 まだ実験的で完成度は低いものです。セキュリティ分析図については [脅威分析研究会](https://sites.google.com/view/sigsta/) で過去に発表された資料 [「脅威分析超入門」](https://sites.google.com/site/sigstaweb/20161020) をご覧ください。
 
+![Screen shot](https://raw.githubusercontent.com/masaru-matsunami/language-sad/master/samples/kenko-shot.png)
+
 ## 事前準備
 
 language-sad は今のところ Windows 専用です。
