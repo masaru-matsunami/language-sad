@@ -2,18 +2,24 @@
 # https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
 
 '.source.sad':
-  'true':
+  'expr true':
     'prefix': 'true'
     'body': 'expr  true'
-  'false':
+  'expr false':
     'prefix': 'false'
     'body': 'expr  false'
-  'undef':
+  'expr undef':
     'prefix': 'undef'
     'body': 'expr  undef'
-  'equal':
+  'expr =()':
     'prefix': 'equal'
     'body': 'expr  =()'
-  'not':
+  'expr not()':
     'prefix': 'not'
     'body': 'expr  not()'
+  'expr and()':
+    'prefix': 'and'
+    'body': 'expr  and()'
+  'expr or()':
+    'prefix': 'or'
+    'body': 'expr  or()'
