@@ -7,6 +7,10 @@ language-sad はセキュリティ分析図（Security Analysis Diagram）の作
 
 ![Screen shot](https://raw.githubusercontent.com/masaru-matsunami/language-sad/master/samples/kenko-shot.png)
 
+セキュリティ分析図では Attack Tree 風の図も書けます。
+
+![Attack Tree](https://raw.githubusercontent.com/masaru-matsunami/language-sad/master/samples/attack-tree.png)
+
 ## 事前準備
 
 language-sad は今のところ Windows 専用です。
