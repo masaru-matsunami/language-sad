@@ -1,0 +1,23 @@
+// ------------------------------------------------------------------------
+//  Attack Tree example
+//  https://www.schneier.com/academic/archives/1999/12/attack_trees.html
+// ------------------------------------------------------------------------
+
+[1] Open Safe / 金庫を開ける
+    orig https:\/\/www.schneier.com/academic/archives/1999/12/attack_trees.html
+    expr or(2, 3, 4, 5)
+  [2] Pick Lock / 鍵をこじ開ける
+  [3] Learn Combo / 鍵の番号を知る
+      expr or(6, 7)
+    [6] Find Written Combo / 紙などに書いてある鍵の番号を探す
+    [7] Get Combo From Target / 金庫の関係者から鍵の番号を聞き出す
+        expr or(8, 9, 10, 11)
+      [8] Threaten / 脅す
+      [9] Blackmail / 弱みに付け込む
+      [10] Eavesdrop / 盗聴する
+          expr and(12, 13)
+        [12] Listen to Conversation / 会話を聞く
+        [13] Get Target to Sate Combo / 何らかの方法で鍵の番号を言わせる
+      [11] Bribe / 賄賂を渡す
+  [4] Cut Open Safe / 金庫を斬る
+  [5] Install Improperly / 攻撃者が開けられる細工をした金庫を予め設置しておく
