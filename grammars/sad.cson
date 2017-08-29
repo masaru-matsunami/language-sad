@@ -9,7 +9,7 @@
 'patterns': [
   {
     # コメント
-    'match': '^.*(//.*)$'
+    'match': '^.*?(//.*)$'
     'captures':
       '1':
         'name': 'storage.sad'
