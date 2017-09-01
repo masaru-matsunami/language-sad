@@ -1,3 +1,8 @@
+## 0.1.3
+* コメント中に//があるとコメント色付け範囲が//以降だけになる不具合を修正
+* Attack Treeのサンプルを改善（undefをtrue/falseに置き換え）
+* Undoが出来なくなる不具合を修正
+
 ## 0.1.2
 * Attack Tree のサンプルを追加
 * expr true/false/undef/=()/not()/and()/or() のコードスニペットを整備した
