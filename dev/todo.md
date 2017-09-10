@@ -15,6 +15,7 @@
 - dot表現をdot-writerから分離?
 - dot-writer.js → TODO:無理やり連結しているのは改善必要
 - 自動整形処理のON/OFF → 要らないかなぁ。割とまともになってきたし。
+- リファクタ：StatementじゃなくてSentenceがよいらしい
 
 ## 応用
 
