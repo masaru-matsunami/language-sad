@@ -1,18 +1,15 @@
 {
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "Sad",
-          "submenu": [
-            {
-              "label": "Toggle Tree / Network",
-              "command": "sad:toggleTreeNetwork"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "Sad",
+      "submenu": [{
+        "label": "Toggle Tree / Network",
+        "command": "sad:toggleTreeNetwork"
+      }, {
+        "label": "Toggle Node Lock",
+        "command": "sad:toggleNodeLock"
+      }]
+    }]
+  }]
 }
