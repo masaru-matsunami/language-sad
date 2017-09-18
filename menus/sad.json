@@ -7,8 +7,11 @@
         "label": "Toggle Tree / Network",
         "command": "sad:toggleTreeNetwork"
       }, {
-        "label": "Toggle Node Lock",
-        "command": "sad:toggleNodeLock"
+        "label": "Set Node Lock",
+        "command": "sad:setNodeLock"
+      }, {
+        "label": "Clear Node Lock",
+        "command": "sad:clearNodeLock"
       }]
     }]
   }]
