@@ -7,6 +7,9 @@
         "label": "Toggle Tree / Network",
         "command": "sad:toggleTreeNetwork"
       }, {
+        "label": "Toggle Show Memo",
+        "command": "sad:toggleShowMemo"
+      }, {
         "label": "Set Node Lock",
         "command": "sad:setNodeLock"
       }, {

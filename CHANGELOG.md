@@ -1,5 +1,6 @@
-## ?
+## 0.4.0
 * Toggle Node Lock を Set Node Lock と Clear Node Lock に分割した
+* Toggle Show Memo を追加した
 
 ## 0.3.0
 * 出力グラフの起点となる命題ノードを固定できる機能をメニューに追加した
