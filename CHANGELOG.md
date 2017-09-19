@@ -1,3 +1,6 @@
+## 0.4.1
+* consoleに出力していたメッセージをAtomの通知メッセージとして表示するようにした
+
 ## 0.4.0
 * Toggle Node Lock を Set Node Lock と Clear Node Lock に分割した
 * Toggle Show Memo を追加した
