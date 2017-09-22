@@ -15,6 +15,9 @@
       }, {
         "label": "Clear Node Lock",
         "command": "sad:clearNodeLock"
+      }, {
+        "label": "Renumber",
+        "command": "sad:renumber"
       }]
     }]
   }]
