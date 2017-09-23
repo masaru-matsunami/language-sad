@@ -18,6 +18,9 @@
       }, {
         "label": "Renumber",
         "command": "sad:renumber"
+      }, {
+        "label": "Set PDF Folder",
+        "command": "sad:setPdfFolder"
       }]
     }]
   }]
