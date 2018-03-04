@@ -10,9 +10,6 @@
         "label": "Toggle Show Memo",
         "command": "sad:toggleShowMemo"
       }, {
-        "label": "Toggle Draw Outside Of Tree",
-        "command": "sad:toggleDrawOutsideOfTree"
-      }, {
         "label": "Set Node Lock",
         "command": "sad:setNodeLock"
       }, {

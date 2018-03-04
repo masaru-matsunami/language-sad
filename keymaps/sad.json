@@ -1,6 +1,7 @@
 {
   "atom-workspace atom-text-editor:not(.mini)[data-grammar~=\"sad\"]": {
     "ctrl-;": "sad:draw",
+    "ctrl-:": "sad:drawFull",
     "ctrl-1": "sad:draw1",
     "ctrl-2": "sad:draw2",
     "ctrl-3": "sad:draw3",
