@@ -15,6 +15,7 @@
     "ctrl-[": "sad:outdent",
     "ctrl-]": "sad:indent",
     "ctrl-z": "sad:undo",
-    "ctrl-y": "sad:redo"
+    "ctrl-y": "sad:redo",
+    "ctrl-r": "sad:renumber"
   }
 }
