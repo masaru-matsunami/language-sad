@@ -4,7 +4,7 @@
 // ------------------------------------------------------------------------
 
 [1] Open Safe / 金庫を開ける
-    orig https:\/\/www.schneier.com/academic/archives/1999/12/attack_trees.html
+    orig https://www.schneier.com/academic/archives/1999/12/attack_trees.html
     expr or(2, 3, 4, 5)
   [2] Pick Lock / 鍵をこじ開ける
       expr  false

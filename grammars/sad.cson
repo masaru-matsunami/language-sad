@@ -8,8 +8,8 @@
 ]
 'patterns': [
   {
-    # コメント
-    'match': '^.*?(//.*)$'
+    # コメント行
+    'match': '^\\s*(//.*)$'
     'captures':
       '1':
         'name': 'storage.sad'
