@@ -33,8 +33,8 @@
         'name': 'entity.name.function.sad'
   },
   {
-    # メモ行
-    'match': '^\\s+([^\\s]{1,8})\\s+(.*)\\s*$'
+    # メモ先頭行
+    'match': '^\\s+([^\\s]{1,8})\\s+[^\\s].*$'
     'captures':
       '1':
         'name': 'support.variable.sad'
