@@ -21,6 +21,9 @@
       }, {
         "label": "Set PDF Folder",
         "command": "sad:setPdfFolder"
+      }, {
+        "label": "Settings",
+        "command": "sad:openSettings"
       }]
     }]
   }]
