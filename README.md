@@ -3,7 +3,7 @@
 ## はじめに
 
 language-sad はセキュリティ分析図（Security Analysis Diagram）の作成を支援するAtomパッケージです。
-まだ実験的で完成度は低いものです。セキュリティ分析図については [脅威分析研究会](https://sites.google.com/view/sigsta/) で過去に発表された資料 [「脅威分析超入門」](https://sites.google.com/site/sigstaweb/20161020) をご覧ください。
+セキュリティ分析図については [脅威分析研究会](https://sites.google.com/view/sigsta/) で過去に発表された資料 [「脅威分析超入門」](https://sites.google.com/site/sigstaweb/20161020) をご覧ください。
 
 ![Screen shot](https://raw.githubusercontent.com/masaru-matsunami/language-sad/master/samples/kenko-shot.png)
 
@@ -14,10 +14,12 @@ language-sad はセキュリティ分析図（Security Analysis Diagram）の作
 ## 事前準備
 
 language-sad は今のところ Windows 専用です。
-事前に [graphviz](http://www.graphviz.org/) と PDFビューアがインストールされている必要があります。
-graphviz の dot.exe にはパスを通しておく必要もあります。
+事前に [graphviz](http://www.graphviz.org/) と PDFビューア がインストールされている必要があります。
+
+graphviz の dot.exe には PATH を通しておくか、language-sad の Settings の Full path to the graphviz dot.exe command に dot.exe のフルパス（例えば C:\\Program Files (x86)\\Graphviz2.38\\bin\\dot.exe など）を設定しておく必要があります。
+
 language-sad はセキュリティ分析図のPDFファイルを生成し、拡張子.pdfに割り当てられたPDFビューアに表示させます。
-PDFビューアは任意ですが [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html) が表示が高速であるためお勧めです。
+PDFビューアは任意ですが [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html) が表示が高速であるためお勧めです。また Acrobat Reader DC は PDF ファイルをロックするため使いにくいと思います。
 
 ## チュートリアル
 
