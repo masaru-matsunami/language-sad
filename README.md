@@ -1,6 +1,6 @@
 # Security Analysis Diagram language package
 
-## --- はじめに ---
+## はじめに
 
 language-sad は Attack Tree や セキュリティ分析図 をテキスト入力で効率よく作図できる Atom パッケージです。
 
@@ -8,19 +8,22 @@ language-sad は Attack Tree や セキュリティ分析図 をテキスト入�
 
 セキュリティ分析図については [脅威分析研究会](https://sites.google.com/view/sigsta/) で過去に発表された資料 [「脅威分析超入門」](https://sites.google.com/site/sigstaweb/20161020) をご覧ください。
 
-## --- セットアップ ---
+## セットアップ
 
 - language-sad は今のところ Windows 専用です。
-- Windows に以下のソフトウェアをインストールしてください。
+- Windows に以下のソフトウェアをインストールします。
   - [Graphviz](https://graphviz.gitlab.io/_pages/Download/Download_windows.html)
   - お好みの PDF Viewer
     --- [Sumatra PDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html) を推奨。
     Adobe Reader はファイルロックするため非推奨。
-- Graphvizのdot.exeコマンドのパス設定
-  - language-sad の Settings の Full path to the graphviz dot.exe command に dot.exe のフルパス（例えば C:\\Program Files (x86)\\Graphviz2.38\\bin\\dot.exe など）を設定
-- お好みの PDF Viewer を 拡張子.pdf に割り当て
+- Graphvizのdot.exeコマンドのフルパスを設定します。
+  - language-sad の Settings の Full path to the graphviz dot.exe command に dot.exe のフルパス（例えば C:\\Program Files (x86)\\Graphviz2.38\\bin\\dot.exe など）を指定します。
+- お好みの PDF Viewer を 拡張子.pdf に割り当てます。
+- セットアップ手順動画（YouTube）もあります。
 
-## --- チュートリアル ---
+  [![セットアップ手順動画](https://img.youtube.com/vi/LmdwNcU-Kfo/0.jpg)](https://www.youtube.com/watch?v=LmdwNcU-Kfo)]
+
+## チュートリアル
 
 まずは attack-tree.sad という名前のファイルをAtomで作成して、下記の内容をコピー＆ペーストしてください。
 ```
@@ -49,7 +52,7 @@ language-sad は Attack Tree や セキュリティ分析図 をテキスト入�
 すると Attack Tree がPDFビューアによって表示されます。
 このようにテキストを記述するだけで簡単にツリー状（またはネットワーク状）のグラフを作図することができます。
 
-## --- セキュリティ分析図 ---
+## セキュリティ分析図
 
 language-sad はセキュリティ分析図と呼ばれる形式のグラフを作図します。
 セキュリティ分析図は「モノゴト(命題)の因果関係を記述する方法」であるため、
@@ -73,7 +76,7 @@ Key部分は[]内に表記され、Value部分が[]の右側に表記されま�
 - 偽 … 赤色
 - 不明 … 灰色
 
-## --- テキスト書式（.sad形式）---
+## テキスト書式（.sad形式）
 
 チュートリアルでコピー＆ペーストしたテキストの書式に関する説明です。
 
@@ -129,7 +132,7 @@ label行のある命題行はノードとして作図されるときに、
 `//` で始まる行はコメント行です。単に無視され作図には影響ありません。
 命題行や属性行の後半にコメントを記述することはできません。
 
-## --- 使い方 ---
+## 使い方
 
 ### 部分グラフの表示
 チュートリアルでは `[1]` 部分にカーソルを置いてから `CTRL+;` しましたので、命題 [1] を起点として作図されました。
