@@ -41,5 +41,5 @@ import "relative_path.sad"
   * import "filename.sad" as PREFIX も考えたけど、ちょっとシンプルじゃないのでねぇ
   * ひとまず簡単に以下でやってみる
     * labelがある場合 -> `[label]`
-    * uuidがある場合 -> `[uuidの先頭4文字]`
+    * uuidがある場合 -> `[uuidの先頭5文字]`
     * それ以外 -> `[-]`
