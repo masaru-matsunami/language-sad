@@ -168,6 +168,32 @@ expr の () では子命題のIDを指定しますが、インデント関係で
 `CTRL+;`は部分木の範囲までしか作図しないようにしてあります。
 `CTRL+:`は仕上げとして全体を見渡すときに使います。
 
+### 外部ファイル参照
+分析の規模が大きくなってくると、複数のファイルに分割して管理したくなります。
+`import`と`uuid`によりファイル間の連携ができます。
+下記の例では、ファイル`analysis.sad`から外部ファイル`common.sad`の中のノードを`lrlcahckbrhmlbxbgtrrizd6km`という`uuid`で
+参照しています。`uuid`の値部分は「uuid」とタイプして改行すると自動発番されます。
+
+```
+// ---- analysis.sad ----
+import "common.sad"
+
+[1] ツリーAの親
+    expr  and(lrlcahckbrhmlbxbgtrrizd6km, 2, 3)
+  [2] ツリーAの子X
+  [3] ツリーAの子Y
+```
+```
+// ---- common.sad ----
+[1] ツリーBのトップ
+    uuid  lrlcahckbrhmlbxbgtrrizd6km
+    expr  or(2, 3, 4)
+  [2] ツリーBの子X
+  [3] ツリーBの子Y
+  [4] ツリーBの子Z
+```
+
+
 ### メモの表示・非表示
 `Packages > Sad > Toggle Show Memo`により、命題ノード下に表示されるメモ部分の表示・非表示を切り替えることができます。
 
