@@ -4,7 +4,7 @@
 
 language-sad は Attack Tree や セキュリティ分析図 をテキスト入力で効率よく作図できる Atom パッケージです。
 
-![README用サンプルAT図](https://raw.githubusercontent.com/masaru-matsunami/language-sad/master/readme/attack-tree.png)
+[![基本的な使い方動画](https://img.youtube.com/vi/NplIk-PClbY/0.jpg)](https://www.youtube.com/watch?v=NplIk-PClbY)
 
 セキュリティ分析図については [脅威分析研究会](https://sites.google.com/view/sigsta/) で過去に発表された資料 [「脅威分析超入門」](https://sites.google.com/site/sigstaweb/20161020) をご覧ください。
 
@@ -21,7 +21,7 @@ language-sad は Attack Tree や セキュリティ分析図 をテキスト入�
 - お好みの PDF Viewer を 拡張子.pdf に割り当てます。
 - セットアップ手順動画（YouTube）もあります。
 
-  [![セットアップ手順動画](https://img.youtube.com/vi/LmdwNcU-Kfo/0.jpg)](https://www.youtube.com/watch?v=LmdwNcU-Kfo)]
+  [![セットアップ手順動画](https://img.youtube.com/vi/LmdwNcU-Kfo/0.jpg)](https://www.youtube.com/watch?v=LmdwNcU-Kfo)
 
 ## チュートリアル
 
