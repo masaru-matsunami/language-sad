@@ -1,7 +1,7 @@
 {
   "name": "language-sad",
   "main": "./lib/main",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Security Analysis Diagram language package",
   "keywords": [
     "language",
