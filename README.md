@@ -21,7 +21,7 @@ language-sad は Attack Tree や セキュリティ分析図 をテキスト入�
 - お好みの PDF Viewer を 拡張子.pdf に割り当てます。
 - セットアップ手順動画（YouTube）もあります。
 
-  [![セットアップ手順動画](https://img.youtube.com/vi/LmdwNcU-Kfo/0.jpg)](https://www.youtube.com/watch?v=LmdwNcU-Kfo)
+  [![セットアップ手順動画](https://img.youtube.com/vi/hNMPu5c9HCQ/0.jpg)](https://youtu.be/hNMPu5c9HCQ)
 
 ## チュートリアル
 
